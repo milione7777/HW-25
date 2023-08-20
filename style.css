@@ -1,0 +1,30 @@
+.box {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+
+}
+
+ul {
+    list-style: none;
+}
+
+.box:nth-child(1) {
+    background-color: rgb(255, 115, 115);
+    z-index: 1;
+}
+
+.box:nth-child(2) {
+    background-color: violet;
+    z-index: 3;
+    left: 130px;
+    margin-top: 90px;
+    
+}
+
+.box:nth-child(3) {
+    background-color: springgreen;
+    z-index: 2;
+    top: 200px;
+    margin-left: 180px;
+}
