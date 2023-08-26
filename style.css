@@ -6,7 +6,10 @@
 }
 
 ul {
+    position: relative;
     list-style: none;
+    left: 400px;
+    top: 100px;
 }
 
 .box:nth-child(1) {
@@ -25,6 +28,6 @@ ul {
 .box:nth-child(3) {
     background-color: springgreen;
     z-index: 2;
-    top: 200px;
+    top: 190px;
     margin-left: 180px;
 }
